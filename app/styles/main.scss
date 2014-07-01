@@ -1,0 +1,144 @@
+// bower:scss
+// endbower
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+body {
+    margin: 0px;
+    background-color: #B5DEF7;
+
+}
+
+.name {
+    display: block;
+    font-size: 20px;
+    font-family: Helvetica;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.title {
+    display: block;
+    font-size: 17px;
+    font-family: Helvetica;
+    text-align: center;
+    margin-top: -2px;
+}
+
+.contactInfo {
+    display: block;
+    font-size: 17px;
+    font-family: Helvetica;
+    text-align: center;
+    margin-top: -2px;
+}
+
+.connectButtons {
+    display: inline-block;
+    float: right;
+    margin-top: -35px;
+    margin-right: 5px;
+}
+
+
+
+.topContainer {
+}
+
+.header {
+    display: block;
+    height: 65px;
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(79,133,187,1) 0%,rgba(79,133,187,1) 100%); 
+    z-index: 4;
+
+}
+
+.container {
+    width: calc(100%);
+
+}
+
+.leftImage {
+    margin-top: 58px;
+    float: left;
+    height: 600px;
+    width: 320px;
+    background-image: url('http://tryimg.com/4/charl.png');
+    background-color: #B5DEF7;
+    margin-left: 50px;
+
+}
+
+.rightBar {
+    float: left;
+    background-color: blue;
+    height: 658px;
+    width: 60%;
+}
+
+.cells {
+    display: block;
+    height: 100px;
+    width: 80%;
+    background-color: green;
+    margin: 0px auto;
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cellsTop {
+    margin-top: 75px
+}
+
+.middleContainer {
+    display: block;
+}
+
+.secondBar {
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 950px) {
+    .leftImage {
+        display: none;
+
+    }
+
+    .rightBar {
+        float: left;
+        background-color: blue;
+        height: 800px;
+        width: 100%;
+        margin-left: 20%;
+    }
+
+    .container {
+    width: calc(80% - 55px);
+
+}
+}
+
+@media screen and (max-width: 370px) {
+    .rightBar {
+        float: left;
+        background-color: red;
+        height: 1000px;
+        width: 100%;
+        margin-left: 0%;
+
+    }
+
+    .container {
+        width: 100%;
+
+}
+}
