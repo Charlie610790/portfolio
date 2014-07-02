@@ -65,7 +65,7 @@ body {
 }
 
 .topContainer {
-
+    display: block;
 }
 
 .header {
@@ -155,6 +155,36 @@ body {
 
 }
 
+.constructorsGame {
+    background-size: 90px 90px;
+    background-image: url('https://cloud.githubusercontent.com/assets/7440065/3435678/1593923c-0098-11e4-93fd-a3e4b8f2196b.png');
+
+}
+
+.imageGallery {
+    background-size: 90px 90px;
+    background-image: url('https://cloud.githubusercontent.com/assets/7440065/3435809/9c453e56-0099-11e4-8af1-ddfd83d7a601.png');
+
+}
+
+.jqueryAssignment {
+    background-size: 90px 90px;
+    background-image: url('https://cloud.githubusercontent.com/assets/7440065/3435650/cbb43d24-0097-11e4-932f-b552c9dccc67.png');
+
+}
+
+.jsAssignment {
+    background-size: 90px 90px;
+    background-image: url('https://cloud.githubusercontent.com/assets/7440065/3435831/d55fabb8-0099-11e4-909c-343b2bf0fbab.png');
+
+}
+
+.cssAssignment {
+    background-size: 90px 90px;
+    background-image: url('https://cloud.githubusercontent.com/assets/7440065/3435423/5117d2da-0095-11e4-8121-9fc84dd63727.png');
+
+}
+
 .chat {
     background-size: 90px 90px;
     background-image: url('https://cloud.githubusercontent.com/assets/7440065/3435574/f028ea2a-0096-11e4-8693-ccc8097849d1.png');
@@ -197,6 +227,20 @@ body {
     font-size: 50px;
     text-align: center;
     width: 100%;
+}
+
+.middleLeft {
+    display: inline-block;
+    height: 500px;
+    width: 50%;
+    background-color: red;
+}
+
+.middleRight {
+    display: inline-block;
+    height: 500px;
+    width: 48%;
+    background-color: green;
 }
 
 @media screen and (max-width: 1000px) {
