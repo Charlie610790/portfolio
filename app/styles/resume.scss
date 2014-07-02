@@ -1,0 +1,34 @@
+.resumeMargins {
+    margin-left: 10px;
+}
+
+.resumeName {
+    font-size: 20px;
+}
+
+.resumeContactInfo {
+    font-size: 14px;
+}
+
+.resumeHeader {
+    margin-top: 15px;
+    font-size: 20px;
+    border-bottom: 1px solid gray;
+
+}
+
+.resumeSummary {
+    font-size: 16px;
+}
+
+.resumeSchoolName {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 370px) {
+.pageContainer {
+        margin-left: 0px;
+        height: 1000px;
+    }
+}
